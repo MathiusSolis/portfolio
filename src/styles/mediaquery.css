@@ -1,0 +1,13 @@
+@media screen and (max-width: 1000px) {
+    html {
+        font-size: 80%;
+    }
+
+    .header {
+        background-size: 100%;
+    }
+
+    .list__item {
+        flex-grow: 1;
+    }
+}
