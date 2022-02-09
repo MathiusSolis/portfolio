@@ -10,11 +10,11 @@ export const Contact = () => {
 			<Title title='Contactame' subTitle='Puedes contactarme mediante:' />
 			<div className='contact'>
 				<img className='link__img' src={phone} alt='Mi número de telefono' />
-				<a className='link' href='#'>Teléfono</a>
+				<a className='link' href='./src/assets/images/phone-number.png' download>Teléfono</a>
 			</div>
 			<div className='contact'>
 				<img className='link__img' src={email} alt='Mi Email/Correo' />
-				<a className='link' href='#'>Email/Correo</a>
+				<a className='link' href='./src/assets/images/email.png' download>Email/Correo</a>
 			</div>
 		</Content>
 	);
