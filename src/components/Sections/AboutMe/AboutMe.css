@@ -1,0 +1,95 @@
+/* 
+    p = padding
+    m = margin
+    t = top
+    b = bottom
+    l = left
+    r = right
+    all = all directions (top, bottom, right, left)
+    default = normal or default value
+    [small, large, etc.] = the modifier that indicates a standar or specific value
+*/
+
+:root {
+    --info-p-all-default: 4em;
+    --info-p-all-small: 2em;
+    --info-m-tb-default: 10rem;
+}
+
+.info {
+    flex-basis: 50rem;
+	background-color: rgba(0, 0, 0, 0.29);
+	font-size: 1.3rem;
+	color: #9c9c9c;
+	padding: var(--info-p-all-default);
+    border-radius: .5em;
+
+    margin-top: var(--info-m-tb-default);
+    margin-bottom: var(--info-m-tb-default);
+
+    position: relative;
+}
+
+@media screen and (max-width: 650px) {
+    .info {
+        padding: var(--info-p-all-small);
+        border-radius: 0;
+    }
+} 
+
+.section__search-icon,
+.section__pencil-icon,
+.section__clock-icon {
+	position: absolute;
+	width: 10rem;
+}
+
+.section__search-icon,
+.section__pencil-icon {
+	animation: icon-anim 3s infinite alternate ease-in-out;
+}
+
+.section__search-icon {
+	animation-delay: 0.7s;
+	top: 7rem;
+	right: 6%;
+}
+.section__pencil-icon {
+	top: 1rem;
+	left: 6%;
+}
+
+@media screen and (max-width: 401px) {
+	.section__search-img {
+		right: 0;
+	}
+	.section__pencil-img {
+		left: 0;
+	}
+}
+
+.section__clock-icon {
+	width: 7rem;
+	transform: rotate(-15deg);
+	bottom: 1.5em;
+	left: calc(50% - 1rem);
+	/* left: 50%; */
+	animation: clock-anim 3s infinite alternate ease-in-out;
+}
+@keyframes icon-anim {
+	from {
+		transform: translateY(0) rotate(0);
+	}
+	to {
+		transform: translateY(40%) rotate(30deg);
+	}
+}
+@keyframes clock-anim {
+	from {
+		transform: rotate(-15deg);
+	}
+
+	to {
+		transform: rotate(0) translateY(-40%);
+	}
+}
