@@ -1,0 +1,195 @@
+<svg width="586" height="546" viewBox="0 0 586 546" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        #buble-white-a,
+        #buble-white-b,
+        #buble-white-c,
+        #moons {
+            transform-box: fill-box;
+            transform-origin: center;
+        }
+
+        #buble-white-a,
+        #buble-white-b,
+        #buble-white-c,
+        #buble-red-a,
+        #buble-red-b,
+        #buble-blue-a,
+        #buble-blue-b,
+        #buble-yellow-b,
+        #moons,
+        #test,
+        #substance {
+            animation-timing-function: ease-in-out;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+        }
+
+        /* -------------------------------------- */
+
+        #moons {
+            animation-name: moons;
+            animation-duration: 2.5s;
+            animation-direction: alternate;
+        }
+
+        @keyframes moons {
+            to {
+                transform: rotate(20deg);
+            }
+        }
+
+        /* ------------------------------------ */
+
+        #buble-white-a,
+        #buble-white-b,
+        #buble-white-c {
+            animation-name: buble-white;
+        }
+
+        #buble-white-b {
+            animation-delay: 0.5s;
+        }
+
+        #buble-white-c {
+            animation-delay: 1s;
+        }
+
+        @keyframes buble-white {
+            to {
+                transform: scale(0);
+            }
+        }
+
+        /* ------------------------------------ */
+
+        #buble-red-a,
+        #buble-red-b,
+        #buble-blue-a,
+        #buble-blue-b,
+        #buble-yellow-b {
+            animation-name: bubles;
+            animation-timing-function: linear;
+        }
+
+        #buble-blue-a {
+            animation-delay: 1s;
+        }
+
+        #buble-yellow-a {
+            animation-delay: 2s;
+        }
+
+        #buble-red-b {
+            animation-delay: 1.5s
+        }
+
+        #buble-blue-b {
+            animation-delay: 2s;
+        }
+
+        #buble-yellow-b {
+            animation-delay: 1.2s;
+        }
+
+        @keyframes bubles {
+            0% {
+                transform: translateY(0);
+                opacity: 0;
+            }
+
+            25% {
+                transform: translateY(-87.5px) translateX(-20px);
+            }
+
+            50% {
+                opacity: 1;
+                transform: translateY(-175px) translateX(20px);
+            }
+
+            75% {
+                transform: translateY(-262.5px) translateX(-25px);
+            }
+
+            100% {
+                transform: translateY(-350px) translateX(5px);
+                opacity: 0;
+            }
+        }
+
+        /* ---------------------------------------------- */
+
+        #test {
+            animation-name: test;
+            animation-duration: 2s;
+            animation-direction: alternate;
+        }
+
+        @keyframes test {
+            to {
+                transform: translateY(30px);
+            }
+        }
+
+        /* ----------------------------------- */
+        #substance {
+            animation-name: substance;
+            animation-duration: 8s;
+            animation-direction: alternate;
+        }
+
+        @keyframes substance {
+            50% {
+                fill: #8f7d17;
+            }
+
+            100% {
+                fill: #256294;
+            }
+        }
+    </style>
+    <g id="banner">
+        <g id="moons">
+            <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd"
+                d="M467.86 87.7445C506.919 228.642 424.251 374.558 283.215 413.656C201.008 436.445 117.117 417.914 53.6989 370.588C103.963 500.727 245.985 573.918 383.489 535.799C529.847 495.225 615.665 343.909 575.167 197.824C554.894 124.694 506.809 66.7384 445.478 32.1807C454.829 49.4425 462.392 68.0216 467.86 87.7445Z"
+                fill="#0B0B11" />
+            <path id="Subtract_2" fill-rule="evenodd" clip-rule="evenodd"
+                d="M414.161 55.5638C453.221 196.462 370.552 342.377 229.516 381.475C147.31 404.265 63.4182 385.734 -2.3615e-06 338.408C50.2641 468.546 192.286 541.737 329.79 503.618C476.149 463.045 561.966 311.728 521.468 165.644C501.195 92.5136 453.11 34.5577 391.779 6.58395e-06C401.13 17.2618 408.693 35.8409 414.161 55.5638Z"
+                fill="#33333F" />
+        </g>
+        <g id="test">
+            <path
+                d="M147.677 478.92H322.538C322.538 478.92 328.805 479.709 333.798 473.12C335.237 471.271 336.151 469.069 336.444 466.744C336.736 464.42 336.397 462.06 335.462 459.912L267.799 312.044V220.81H277.565V204.289L189.872 204.229V220.81H199.375V312.044L132.852 459.915C132.852 459.915 130.303 466.604 135.76 473.124C141.217 479.643 147.677 478.92 147.677 478.92Z"
+                fill="white" stroke="white" stroke-width="10" />
+            <path id="buble-blue-b"
+                d="M234.355 407.709C239.521 407.709 243.709 403.521 243.709 398.355C243.709 393.188 239.521 389 234.355 389C229.188 389 225 393.188 225 398.355C225 403.521 229.188 407.709 234.355 407.709Z"
+                fill="#3185C8" />
+            <path id="buble-red-b"
+                d="M234.121 407.241C239.158 407.241 243.241 403.158 243.241 398.121C243.241 393.083 239.158 389 234.121 389C229.083 389 225 393.083 225 398.121C225 403.158 229.083 407.241 234.121 407.241Z"
+                fill="#C73240" />
+            <path id="buble-yellow-b"
+                d="M234.161 408.322C240.877 408.322 246.322 402.877 246.322 396.161C246.322 389.445 240.877 384 234.161 384C227.445 384 222 389.445 222 396.161C222 402.877 227.445 408.322 234.161 408.322Z"
+                fill="#C8AE22" />
+            <path id="buble-blue-a"
+                d="M234.355 407.709C239.521 407.709 243.709 403.521 243.709 398.355C243.709 393.188 239.521 389 234.355 389C229.188 389 225 393.188 225 398.355C225 403.521 229.188 407.709 234.355 407.709Z"
+                fill="#3185C8" />
+            <path id="buble-red-a"
+                d="M233.887 407.241C238.795 407.241 242.774 403.158 242.774 398.121C242.774 393.083 238.795 389 233.887 389C228.979 389 225 393.083 225 398.121C225 403.158 228.979 407.241 233.887 407.241Z"
+                fill="#C73240" />
+            <path id="buble-yellow-a"
+                d="M234.355 407.709C239.521 407.709 243.709 403.521 243.709 398.355C243.709 393.188 239.521 389 234.355 389C229.188 389 225 393.188 225 398.355C225 403.521 229.188 407.709 234.355 407.709Z"
+                fill="#C8AE22" />
+            <path id="substance"
+                d="M182.784 369.553L206.999 374L220.341 369.553H240.108L249.992 379.93L267.288 369.553H286.561L323.13 458.01C323.439 458.753 323.599 459.55 323.599 460.355C323.599 461.16 323.439 461.957 323.13 462.7C322.121 465.608 319.668 465.917 319.668 465.917H147.696C147.696 465.917 144.618 465.608 143.248 463.306C141.878 461.004 143.248 458.01 143.248 458.01L182.784 369.553Z"
+                fill="#C73240" />
+            <path id="buble-white-a"
+                d="M190.056 451.112C195.61 451.112 200.112 446.61 200.112 441.056C200.112 435.502 195.61 431 190.056 431C184.502 431 180 435.502 180 441.056C180 446.61 184.502 451.112 190.056 451.112Z"
+                fill="white" />
+            <path id="buble-white-c"
+                d="M278.475 454.95C288.679 454.95 296.95 446.679 296.95 436.475C296.95 426.272 288.679 418 278.475 418C268.272 418 260 426.272 260 436.475C260 446.679 268.272 454.95 278.475 454.95Z"
+                fill="white" />
+            <path id="buble-white-b"
+                d="M225.5 414C232.404 414 238 408.404 238 401.5C238 394.596 232.404 389 225.5 389C218.596 389 213 394.596 213 401.5C213 408.404 218.596 414 225.5 414Z"
+                fill="white" />
+        </g>
+    </g>
+</svg>
