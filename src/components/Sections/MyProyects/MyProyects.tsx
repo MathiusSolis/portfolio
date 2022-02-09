@@ -14,8 +14,6 @@ export const MyProyects = () => {
 					<img className='img-container__img' src={ToolsIcon} alt='Icon 2' />
 				</div>
 				<Article logo={BVLogo} des='Creador de la pagina de una empresa consultora' link='https://www.buenvivirtec.com' />
-				<Article logo={BVLogo} des='Creador de la pagina de una empresa consultora' link='https://www.buenvivirtec.com' />
-				<Article logo={BVLogo} des='Creador de la pagina de una empresa consultora' link='https://www.buenvivirtec.com' />
 			</Content>
 		</section>
 	);
