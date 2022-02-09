@@ -1,0 +1,18 @@
+.content-bg {
+    width: 100%;
+    background-image: url(../../assets/images/header-bg.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top right;
+	background-color: #2a2a2f;
+}
+
+.content {
+    position: relative;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5em;
+}
