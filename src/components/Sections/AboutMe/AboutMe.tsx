@@ -26,10 +26,7 @@ export const AboutMe = () => {
 					alt='Clock Icon'
 				/>
 				<p className='info'>
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
-					sunt rem maiores error, repellat consequuntur nostrum sint ex
-					ipsam accusamus, recusandae alias corrupti saepe numquam
-					cupiditate. Consectetur voluptatibus dolore illum.
+					Soy programador junior, titulado en la carrera Analista Programador, apasionado a la programación, principalmente relacionado al desarrollo de aplicaciones u paginas WEB, autodidacta y con dedicación a produndizar o mejorar lo que he aprendo, mi principal stack es JavaScript y su ecosistema.
 				</p>
 			</Content>
 		</section>
