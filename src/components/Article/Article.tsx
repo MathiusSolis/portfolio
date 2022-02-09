@@ -1,11 +1,13 @@
 import './Article.css';
 
 export const Article = ({
+	title,
 	logo,
 	des,
 	link,
 	repository
 }: {
+	title: string;
 	logo: string;
 	des: string;
 	link: string;
@@ -17,7 +19,7 @@ export const Article = ({
 				<img className='article__img' src={logo} alt='Logo de Buen Vivir' />
 			</header>
 			<section className='article__section'>
-				<h2 className='article__title'>Página Oficial de Buen Vivir Tecnologia</h2>
+				<h2 className='article__title'>{title}</h2>
 				<hr className='article__hr article--margin-top' />
 				<p className='article__description'>{des}</p>
 				<hr className='article__hr article--margin-bottom' />

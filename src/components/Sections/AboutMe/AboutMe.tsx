@@ -26,7 +26,7 @@ export const AboutMe = () => {
 					alt='Clock Icon'
 				/>
 				<p className='info'>
-					Soy programador junior, titulado en la carrera Analista Programador, apasionado a la programación, principalmente relacionado al desarrollo de aplicaciones u paginas WEB, autodidacta y con dedicación a produndizar o mejorar lo que he aprendo, mi principal stack es JavaScript y su ecosistema.
+					Soy programador junior, titulado en la carrera Analista Programador, apasionado a la programación, principalmente relacionado con el desarrollo de aplicaciones u páginas WEB, autodidacta y con dedicación a profundizar o mejorar lo que he aprendido, mi principal stack es JavaScript y su ecosistema.
 				</p>
 			</Content>
 		</section>
