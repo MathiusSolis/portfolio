@@ -16,7 +16,7 @@ export const MyProyects = () => {
 				<Article 
 					logo={BVLogo}
 					title='Página Oficial de Buen Vivir Tecnología' 
-					des='Creador de la pagina de una empresa consultora' 
+					des='Creador de la página WEB oficial de la empresa Buen Vivir, dedicada a la consultoría y venta de paneles solares' 
 					link='https://www.buenvivirtec.com' />
 			</Content>
 		</section>
