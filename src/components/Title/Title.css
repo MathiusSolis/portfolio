@@ -1,0 +1,28 @@
+.title {
+    flex-basis: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.title-underline {
+    display: block;
+    flex-basis: 100%;
+    max-width: 20rem;
+    color: #8b8b8b;
+    font-size: 1.8rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0 auto;
+    border-bottom: solid .2em #CCCCCC;
+    border-top: solid .2em #CCCCCC;
+    text-align: center;
+}
+
+.title-sub-title {
+    font-size: 1.6rem;
+    color: #969595;
+    text-align: center;
+    text-align: center;
+    flex-basis: 100%;
+    padding-bottom: 1em;
+}
