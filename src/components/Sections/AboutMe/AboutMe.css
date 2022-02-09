@@ -18,7 +18,7 @@
 
 .info {
     flex-basis: 50rem;
-	background-color: rgba(0, 0, 0, 0.29);
+	background-color: rgba(0, 0, 0, 0.35);
 	font-size: 1.3rem;
 	color: #9c9c9c;
 	padding: var(--info-p-all-default);
@@ -26,6 +26,8 @@
 
     margin-top: var(--info-m-tb-default);
     margin-bottom: var(--info-m-tb-default);
+
+	line-height: 1.5;
 
     position: relative;
 }
