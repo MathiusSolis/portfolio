@@ -14,7 +14,7 @@ import { Content } from '../../Content/Content';
 
 export const MyKnowledge = () => {
 	return (
-		<Content asSection={true}>
+		<Content id='myknowledge' asSection={true}>
 			<Title
 				title='Mis Conocimientos'
 				subTitle='Fundamentos/Bases en los siguientes lenguajes y frameworks'

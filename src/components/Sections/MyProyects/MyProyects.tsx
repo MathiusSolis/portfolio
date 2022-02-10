@@ -7,7 +7,7 @@ import './MyProyects.css';
 
 export const MyProyects = () => {
 	return (
-		<section>
+		<section id='myproyects'>
 			<Title title='Mis Proyectos' />
 			<Content style={{ marginTop: '15rem', paddingBottom: '2rem', rowGap:  '5em'}} bg={true}>
 				<div className='img-container'>

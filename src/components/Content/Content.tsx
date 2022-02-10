@@ -1,11 +1,13 @@
 import './Content.css';
 
 export const Content = ({
+	id,
 	asSection = false,
 	bg = false,
 	style,
 	children,
 }: {
+	id?: string;
 	style?: {
 		marginTop?: string | number;
 		paddingBottom?: string | number;
@@ -17,7 +19,7 @@ export const Content = ({
 }) => {
 	if (asSection)
 		return (
-			<section className={`content ${bg && 'content-bg'}`}>
+			<section id={ id } className={`content ${bg && 'content-bg'}`}>
 				{children}
 			</section>
 		);

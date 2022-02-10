@@ -6,7 +6,7 @@ import './Contact.css';
 
 export const Contact = () => {
 	return (
-		<Content asSection={true}>
+		<Content id='contact' asSection={true}>
 			<Title title='Contactame' subTitle='Puedes contactarme mediante:' />
 			<div className='contact'>
 				<img className='link__img' src={phone} alt='Mi número de telefono' />

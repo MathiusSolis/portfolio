@@ -7,7 +7,7 @@ import { Content } from '../../Content/Content';
 
 export const AboutMe = () => {
 	return (
-		<section>
+		<section id='aboutme'>
 			<Title title='Sobre Mí' />
 			<Content bg={true}>
 				<img
