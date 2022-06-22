@@ -8,6 +8,7 @@ import nodeIcon from '../../../assets/images/node.svg';
 import expressIcon from '../../../assets/images/express.svg';
 import gitIcon from '../../../assets/images/git.svg';
 import sqlIcon from '../../../assets/images/mysql-mariadb.svg';
+import reduxIcon from '../../../assets/images/redux.svg';
 import { Title } from '../../Title/Title';
 import { LangLogo } from '../../LangLogo/LangLogo';
 import { Content } from '../../Content/Content';
@@ -24,6 +25,7 @@ export const MyKnowledge = () => {
 			<LangLogo src={javascriptIcon} alt='JavaScript Icon' des='JavaScript' />
 			<LangLogo src={typescriptIcon} alt='TypeScript Icon' des='TypeScript' />
 			<LangLogo src={reactIcon} alt='React Icon' des='React' />
+			<LangLogo src={reduxIcon} alt='Redux Icon' des='Redux' />
 			<LangLogo src={nodeIcon} alt='Node Icon' des='Node.JS' />
 			<LangLogo src={gitIcon} alt='Git Icon' des='Git' />
 			<LangLogo src={expressIcon} alt='Express Icon' des='Express Framework' />
