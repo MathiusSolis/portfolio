@@ -1,4 +1,5 @@
 import './NavBar.css';
+import CV from "../../assets/files/Mathius-CV.pdf";
 
 export const NavBar = () => {
 	return (
@@ -14,7 +15,7 @@ export const NavBar = () => {
 					<a href='#myproyects' className='list__link'>Mis Proyectos</a>
 				</li>
 				<li className='list__item'>
-					<a href='#' className='list__link'>Mi Curriculum</a>
+					<a href={CV} className='list__link' target="_blank">Mi Curriculum</a>
 				</li>
 				<li className='list__item'>
 					<a href='#contact' className='list__link'>Contactame</a>
