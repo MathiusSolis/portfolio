@@ -3,13 +3,14 @@ import phone from '../../assets/images/phone.svg';
 import email from '../../assets/images/email.svg';
 import phoneNumber from '../../assets/images/phone-number.png';
 import emailCotact from '../../assets/images/email.png';
+import githubIcon from '../../assets/images/github.svg';
 import { Title } from '../Title/Title';
 import './Contact.css';
 
 export const Contact = () => {
 	return (
 		<Content id='contact' asSection={true}>
-			<Title title='Contactame' subTitle='Puedes contactarme mediante:' />
+			<Title title='Mi Contacto/Información'/>
 			<div className='contact'>
 				<img className='link__img' src={phone} alt='Mi número de telefono' />
 				<a className='link' href={phoneNumber} download>Teléfono</a>
@@ -17,6 +18,10 @@ export const Contact = () => {
 			<div className='contact'>
 				<img className='link__img' src={email} alt='Mi Email/Correo' />
 				<a className='link' href={emailCotact} download>Email/Correo</a>
+			</div>
+			<div className='contact'>
+				<img className='link__img' src={githubIcon} alt='Mi Email/Correo' />
+				<a className='link' href="https://github.com/MathiusSolis" target="_blank">GitHub</a>
 			</div>
 		</Content>
 	);
