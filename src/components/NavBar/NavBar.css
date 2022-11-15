@@ -35,12 +35,12 @@
 }
 
 @media (hover: hover) {
-    .list__link:hover {
+    .list__link:hover, .link:hover {
         color: #98353c;
     }
 }
 
-.list__link:active {
+.list__link:active, .link:active {
     color: #98353c;
 }
 
