@@ -10,7 +10,7 @@ export const Notions = () => {
     return (
         <BaseStyle>
             <Content id="myknowledge" asSection={true}>
-                <Title title="Nociones (Aprendiendo...)" />
+                <Title title="Nociones" />
                 <LangLogo src={javaIcon} alt="Java Icon" des="Java" />
                 <LangLogo
                     src={springIcon}
