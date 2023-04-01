@@ -25,8 +25,8 @@ export const Notions = () => {
                 />
                 <LangLogo
                     src={flutterIcon}
-                    alt="Dart Icon"
-                    des="Dart"
+                    alt="Flutter Icon"
+                    des="Flutter"
                 />
             </Content>
         </BaseStyle>
