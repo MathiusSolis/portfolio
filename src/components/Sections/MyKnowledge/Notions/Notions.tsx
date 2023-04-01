@@ -16,6 +16,7 @@ export const Notions = () => {
                     alt="Spring Icon"
                     des="Spring Framework"
                 />
+                
             </Content>
         </BaseStyle>
     );
