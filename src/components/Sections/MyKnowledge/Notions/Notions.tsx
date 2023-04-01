@@ -4,6 +4,7 @@ import { Title } from '../../../Title/Title';
 import javaIcon from '../../../../assets/images/Java.svg';
 import springIcon from '../../../../assets/images/spring.svg';
 import dartIcon from '../../../../assets/images/dart.svg';
+import flutterIcon from '../../../../assets/images/flutter.svg';
 import { BaseStyle } from '../BaseStyle/BaseStyle';
 
 export const Notions = () => {
@@ -19,6 +20,11 @@ export const Notions = () => {
                 />
                 <LangLogo
                     src={dartIcon}
+                    alt="Dart Icon"
+                    des="Dart"
+                />
+                <LangLogo
+                    src={flutterIcon}
                     alt="Dart Icon"
                     des="Dart"
                 />
