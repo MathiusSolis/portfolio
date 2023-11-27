@@ -1,7 +1,7 @@
 import { Content } from '../../../Content/Content';
 import { LangLogo } from '../../../LangLogo/LangLogo';
 import { Title } from '../../../Title/Title';
-import javaIcon from '../../../../assets/images/Java.svg';
+import javaIcon from '../../../../assets/images/java.svg';
 import springIcon from '../../../../assets/images/spring.svg';
 import dartIcon from '../../../../assets/images/dart.svg';
 import flutterIcon from '../../../../assets/images/flutter.svg';

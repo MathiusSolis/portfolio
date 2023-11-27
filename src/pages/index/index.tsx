@@ -1,3 +1,5 @@
+import "./index.css";
+
 import { Header } from "../../components/Header/Header";
 import { AboutMe } from "../../components/Sections/AboutMe/AboutMe";
 import { Footer } from "../../components/Footer/Footer";
