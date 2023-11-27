@@ -17,8 +17,8 @@
 }
 
 @font-face {
-	font-family: 'Open Sans';
-	src: url(../assets/fonts/OpenSans-Light.ttf);
+	font-family: 'Iosevka';
+	src: url(../assets/fonts/Iosevka-Regular.ttc);
 }
 
 html {
@@ -50,7 +50,7 @@ html::-webkit-scrollbar-thumb {
 body {
 	margin: 0;
 	width: 100%;
-   font-family: 'Open Sans';
+   font-family: 'Iosevka';
 }
 
 /**
