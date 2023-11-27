@@ -6,8 +6,16 @@ import reactIcon from '../../../../assets/images/react.svg';
 import nodeIcon from '../../../../assets/images/node.svg';
 import expressIcon from '../../../../assets/images/express.svg';
 import gitIcon from '../../../../assets/images/git.svg';
-import sqlIcon from '../../../../assets/images/mysql-mariadb.svg';
+import mysqlIcon from '../../../../assets/images/mysql.svg';
+import mariadbIcon from '../../../../assets/images/mariadb.svg';
 import reduxIcon from '../../../../assets/images/redux.svg';
+import phpIcon from '../../../../assets/images/php.svg';
+import javaIcon from '../../../../assets/images/java.svg';
+import springIcon from '../../../../assets/images/spring.svg';
+import dartIcon from '../../../../assets/images/dart.svg';
+import flutterIcon from '../../../../assets/images/flutter.svg';
+import webpayIcon from '../../../../assets/images/webpay.svg';
+
 import { Title } from '../../../Title/Title';
 import { LangLogo } from '../../../LangLogo/LangLogo';
 import { Content } from '../../../Content/Content';
@@ -28,9 +36,28 @@ export const MyKnowledge = () => {
 				<LangLogo src={reactIcon} alt='React Icon' des='React' />
 				<LangLogo src={reduxIcon} alt='Redux Icon' des='Redux' />
 				<LangLogo src={nodeIcon} alt='Node Icon' des='Node.JS' />
-				<LangLogo src={gitIcon} alt='Git Icon' des='Git' />
 				<LangLogo src={expressIcon} alt='Express Icon' des='Express Framework' />
-				<LangLogo src={sqlIcon} alt='MySQL and MariaDB Icon' des='MariaDB - MySQL' />
+				<LangLogo src={phpIcon} alt='PHP Icon' des='PHP' />
+				<LangLogo
+					src={springIcon}
+					alt="Spring Icon"
+					des="Spring Framework"
+				/>
+				<LangLogo
+					src={dartIcon}
+					alt="Dart Icon"
+					des="Dart"
+				/>
+				<LangLogo
+					src={flutterIcon}
+					alt="Flutter Icon"
+					des="Flutter"
+				/>
+				<LangLogo src={gitIcon} alt='Git Icon' des='Git' />
+				<LangLogo src={mysqlIcon} alt='MySQL Icon' des='MySQL' />
+				<LangLogo src={mariadbIcon} alt='MariaDB Icon' des='MariaDB' />
+				<LangLogo src={javaIcon} alt="Java Icon" des="Java" />
+				<LangLogo src={webpayIcon} alt="WebPay Icon" des="WebPay" />
 			</Content>
 		</BaseStyle>
 	);
