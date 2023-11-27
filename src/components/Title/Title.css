@@ -1,28 +1,43 @@
-.title {
-    flex-basis: 100%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-.title-underline {
-    display: block;
-    flex-basis: 100%;
-    max-width: 20rem;
-    color: #8b8b8b;
-    font-size: 1.8rem;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin: 0 auto;
-    border-bottom: solid .2em #CCCCCC;
-    border-top: solid .2em #CCCCCC;
+.title, .title-sub-title {
+    color: white;
     text-align: center;
+    flex-basis: 100%;
 }
 
 .title-sub-title {
     font-size: 1.6rem;
-    color: #969595;
     text-align: center;
     text-align: center;
-    flex-basis: 100%;
     padding-bottom: 1em;
+}
+
+.divisor, .half-divisor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.half-divisor {
+    width: 40%;
+}
+
+.divisor__line {
+    margin: 0;
+    flex: 1;
+    transform: scaleX(350%);
+    border: none;
+    border-top: dashed white 4px;
+}
+
+.divisor__circle {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: white;
+    border-radius: 100%;
 }

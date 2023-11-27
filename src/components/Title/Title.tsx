@@ -9,9 +9,17 @@ export const Title = ({
 }) => {
 	return (
 		<>
-			<h2 className='title'>
-				<span className='title-underline'>{title}</span>
-			</h2>
+			<div className="divisor">
+				<div className="divisor__circle"></div>
+				<hr className="divisor__line" />
+				<div className="divisor__circle"></div>
+			</div>
+			<h2 className='title'>{title}</h2>
+			<div className="half-divisor">
+				<div className="divisor__circle"></div>
+				<hr className="divisor__line" />
+				<div className="divisor__circle"></div>
+			</div>
 			{subTitle && <h3 className='title-sub-title'>{subTitle}</h3>}
 		</>
 	);

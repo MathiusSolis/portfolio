@@ -1,14 +1,18 @@
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    flex-wrap: wrap;
+}
+
 .contact  {
-    display: grid;
+    display: inline-grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     place-content: center;
     place-items: center;
     height: 13rem;
-    
-    /* esto puede mejorar */
-    margin-left: 5rem;
-    margin-right: 5rem;
 }
 
 .link__img {

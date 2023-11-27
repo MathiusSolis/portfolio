@@ -9,20 +9,22 @@ import './Contact.css';
 
 export const Contact = () => {
 	return (
-		<Content id='contact' asSection={true}>
-			<Title title='Mi Contacto/Información'/>
-			<div className='contact'>
-				<img className='link__img' src={phone} alt='Mi número de telefono' />
-				<a className='link' href={phoneNumber} download>Teléfono</a>
+		<section id='contact'>
+			<Title title='Mi Contacto/Información' />
+			<div className='contact-box'>
+				<div className='contact'>
+					<img className='link__img' src={phone} alt='Mi número de telefono' />
+					<a className='link' href={phoneNumber} download>Teléfono</a>
+				</div>
+				<div className='contact'>
+					<img className='link__img' src={email} alt='Mi Email/Correo' />
+					<a className='link' href={emailCotact} download>Email/Correo</a>
+				</div>
+				<div className='contact'>
+					<img className='link__img' src={githubIcon} alt='Mi Email/Correo' />
+					<a className='link' href="https://github.com/MathiusSolis" target="_blank">GitHub</a>
+				</div>
 			</div>
-			<div className='contact'>
-				<img className='link__img' src={email} alt='Mi Email/Correo' />
-				<a className='link' href={emailCotact} download>Email/Correo</a>
-			</div>
-			<div className='contact'>
-				<img className='link__img' src={githubIcon} alt='Mi Email/Correo' />
-				<a className='link' href="https://github.com/MathiusSolis" target="_blank">GitHub</a>
-			</div>
-		</Content>
+		</section>
 	);
 };
