@@ -20,6 +20,9 @@ export const NavBar = () => {
 				<li className='list__item'>
 					<a href='#contact' className='list__link'>Contactame</a>
 				</li>
+				<li className='list__item'>
+					<a href='#tech-support' className='list__link'>Soporte téncico</a>
+				</li>
 			</ul>
 		</nav>
 	);
