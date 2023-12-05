@@ -2,7 +2,7 @@ import './TechnicalSupport.css';
 
 export const TechnicalSupport = () => {
     return <div id='tech-support'>
-        <h2 className='modal__title'>Soporte <font color='#98353C'>tecnico</font></h2>
+        <h2 className='modal__title'>Soporte <span className='dec-font'>tecnico</span></h2>
         <ul className='modal__list'>
             <li>Instalacion de software u APPs (Mac/Windows).</li>
             <li>Instalacion de drivers (Mac/Windows).</li>
