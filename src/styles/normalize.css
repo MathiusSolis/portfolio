@@ -17,8 +17,8 @@
 }
 
 @font-face {
-	font-family: 'Iosevka';
-	src: url(../assets/fonts/iosevka-regular.woff2);
+	font-family: 'Fira Code';
+	src: url(../assets/fonts/FiraCode-Regular.woff2);
 }
 
 html {
@@ -50,7 +50,7 @@ html::-webkit-scrollbar-thumb {
 body {
 	margin: 0;
 	width: 100%;
-   font-family: 'Iosevka';
+   font-family: 'Fira Code';
 }
 
 /**
