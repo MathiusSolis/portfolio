@@ -3,7 +3,7 @@ import phone from '../../assets/images/phone.svg';
 import email from '../../assets/images/email.svg';
 import phoneNumber from '../../assets/images/phone-number.png';
 import emailCotact from '../../assets/images/email.png';
-import githubIcon from '../../assets/images/github.svg';
+import githubIcon from '../../assets/icons/programing-icons/github.svg';
 import { Title } from '../Title/Title';
 import './Contact.css';
 

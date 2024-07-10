@@ -1,6 +1,6 @@
 import { Title } from '../../Title/Title';
 import BVLogo from '../../../assets/images/bv-logo.png';
-import ToolsIcon from '../../../assets/images/tools-icon.svg';
+import ToolsIcon from '../../../assets/icons/general-icons/tools-icon.svg';
 import { Content } from '../../Content/Content';
 import { Article } from '../../Article/Article';
 import './MyProyects.css';
