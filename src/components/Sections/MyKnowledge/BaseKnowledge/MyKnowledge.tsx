@@ -15,6 +15,7 @@ import springIcon from '../../../../assets/icons/programing-icons/spring.svg';
 import webpayIcon from '../../../../assets/icons/programing-icons/webpay.svg';
 import nest from '../../../../assets/icons/programing-icons/nestjs.svg';
 import next from '../../../../assets/icons/programing-icons/nextjs.svg';
+import docker from '../../../../assets/icons/programing-icons/docker.svg';
 
 import { Title } from '../../../Title/Title';
 import { LangLogo } from '../../../LangLogo/LangLogo';
@@ -41,6 +42,7 @@ export const MyKnowledge = () => {
 				<LangLogo src={next} alt='Nest.js Icon' des='Next.js' />
 				<LangLogo src={gitIcon} alt='Git Icon' des='Git' />
 				<LangLogo src={gitHubActionsIcon} alt='GitHub Action Icon' des='GitHub Actions' />
+				<LangLogo src={docker} alt='Docker (y Compose)' des='Docker' />
 				<LangLogo src={mysqlIcon} alt='MySQL Icon' des='MySQL' />
 				<LangLogo src={mariadbIcon} alt='MariaDB Icon' des='MariaDB' />
 				<LangLogo src={javaIcon} alt="Java Icon" des="Java" />
