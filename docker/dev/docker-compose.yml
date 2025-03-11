@@ -1,0 +1,13 @@
+services:
+  protfolio_dev:
+    image: node:22-alpine
+    container_name: portfolio_dev
+    working_dir: "/portfolio"
+    volumes:
+      - ../../:/portfolio
+      - /portfolio/node_modules
+    ports:
+      - "3000:3000"
+    command: ["sh", "-c", "npm install && npm run dev"]
+    environment:
+      - NODE_ENV=development
