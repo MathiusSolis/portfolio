@@ -1,0 +1,28 @@
+.moon-anim {
+    animation: moon 5s ease-in-out infinite alternate;
+    transform: translateY(-10%);
+}
+
+@keyframes moon {
+    100% {
+        transform: translateY(10%);
+    }
+}
+
+.mini-moon-anim {
+    animation: mini-moon 2s ease-in-out infinite alternate;
+}
+
+.delay1 {
+    animation-delay: 1s;
+}
+
+.delay05 {
+    animation-delay: 0.5s;
+}
+
+@keyframes mini-moon {
+    100% {
+        transform: translateY(40%);
+    }
+}
