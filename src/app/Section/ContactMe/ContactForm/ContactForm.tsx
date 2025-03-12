@@ -36,7 +36,7 @@ export const ContactForm = () => {
                 <br />
                 <div className="flex justify-start items-center gap-3">
                     <Image src={cvIcon} alt="GitHub" className="w-16" />
-                    <p className="text-white text-xl">Descarga mi <a className={`text-white border-b-2 border-b-[#bd424a] hover:text-[#bd424a] transition-colors`} href={'/email.png'} download={true}>Currículum</a></p>
+                    <p className="text-white text-xl">Descarga mi <a className={`text-white border-b-2 border-b-[#bd424a] hover:text-[#bd424a] transition-colors`} href={'/mathius-solis-cv.pdf'} download={true}>Currículum</a></p>
                 </div>
             </div>
         </div>
