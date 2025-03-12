@@ -8,7 +8,7 @@ import toolsIcon from "../../../assets/icons/tools-icon.svg";
 
 export const MyFreelanceExperience = () => {
     return (
-        <section className="flex flex-col gap-14 min-h-screen">
+        <section id="my-freelance-experience" className="flex flex-col gap-14 min-h-screen">
             <SectionTitle title="Mis experiencias freelance" />
             <div className="flex-1 flex flex-col gap-10 justify-center items-center flex-wrap relative mt-40">
                 <MainBg />

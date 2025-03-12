@@ -7,7 +7,7 @@ import { ToolIcons } from "./ToolIcons";
 
 export const MyExperiencesInCompanies = () => {
     return (
-        <section className="min-h-screen flex flex-col">
+        <section id="my-experience-in-companies" className="min-h-screen flex flex-col">
             <SectionTitle title="Mis experiencias en empresas" />
             <div className="flex-1 flex justify-center items-center flex-wrap gap-10 relative mt-16 py-10 px-5">
                 <MainBg />

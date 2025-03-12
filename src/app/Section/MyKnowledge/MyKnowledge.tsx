@@ -25,7 +25,7 @@ import tailwindCssIcon from "../../../assets/icons/tailwindcss.svg";
 
 export const MyKnowledge = () => {
     return (
-        <section className="flex flex-col gap-y-5 min-h-screen">
+        <section id="my-knowledge" className="flex flex-col gap-y-5 min-h-screen">
             <SectionTitle title="Mis conocimientos" />
             <div className="flex-1 flex flex-wrap justify-center items-center gap-5">
                 <LanguageTag className="bg-[#98353c]" src={htmlIcon} text="HTML" />

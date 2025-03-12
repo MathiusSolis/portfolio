@@ -11,7 +11,7 @@ import { PlanetIcon } from "./PlanetIcon/PlanetIcon";
 
 export const ContactMe = () => {
     return (
-        <section className="flex flex-col gap-5 min-h-screen">
+        <section id="contactme" className="flex flex-col gap-5 min-h-screen">
             <SectionTitle title="Contáctame" />
             <div className="flex-1 relative flex flex-wrap justify-center items-center py-10 mt-10 gap-16 pl-5 pr-10">
                 <MainBg />
