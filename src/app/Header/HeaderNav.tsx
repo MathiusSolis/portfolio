@@ -6,7 +6,6 @@ export const HeaderNav = (props: { className?: string, col?: boolean, onClick?: 
     return (
         <nav className={`${props.className || ''} z-10`}>
             <ul className={`h-full flex justify-center items-center ${props.col ? 'flex-col' : ''} gap-x-24 gap-y-8 flex-wrap ${FiraCode.className} text-2xl max-[1200px]:text-xl p-8 pb-0`}>
-                <HeaderNavItem onClick={props.onClick} text="Sobre mí" href="#aboutme" />
                 <HeaderNavItem onClick={props.onClick} text="Mi experiencia" href="#myexperience" />
                 <HeaderNavItem onClick={props.onClick} text="Mis proyectos" href="#myproyects" />
                 <HeaderNavItem onClick={props.onClick} text="Mi Currículum" href="#" />
