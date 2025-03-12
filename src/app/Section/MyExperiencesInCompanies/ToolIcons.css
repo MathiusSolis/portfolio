@@ -1,0 +1,67 @@
+:root {
+    --info-p-all-default: 4em;
+    --info-p-all-small: 2em;
+    --info-m-tb-default: 10rem;
+}
+
+.section__search-icon,
+.section__pencil-icon,
+.section__clock-icon {
+    position: absolute;
+    width: 10rem;
+}
+
+.section__search-icon,
+.section__pencil-icon {
+    animation: icon-anim 3s infinite alternate ease-in-out;
+}
+
+.section__search-icon {
+    animation-delay: 0.7s;
+    top: 7rem;
+    right: 6%;
+}
+
+.section__pencil-icon {
+    top: 1rem;
+    left: 6%;
+}
+
+@media screen and (max-width: 401px) {
+    .section__search-img {
+        right: 0;
+    }
+
+    .section__pencil-img {
+        left: 0;
+    }
+}
+
+.section__clock-icon {
+    width: 7rem;
+    transform: rotate(-15deg);
+    bottom: 1.5em;
+    left: calc(50% - 1rem);
+    /* left: 50%; */
+    animation: clock-anim 3s infinite alternate ease-in-out;
+}
+
+@keyframes icon-anim {
+    from {
+        transform: translateY(0) rotate(0);
+    }
+
+    to {
+        transform: translateY(20%) rotate(30deg);
+    }
+}
+
+@keyframes clock-anim {
+    from {
+        transform: rotate(-15deg);
+    }
+
+    to {
+        transform: rotate(0) translateY(-40%);
+    }
+}
