@@ -4,6 +4,7 @@ import { MyKnowledge } from "./Section/MyKnowledge/MyKnowledge";
 import { ContactMe } from "./Section/ContactMe/ContactMe";
 import { MyExperiencesInCompanies } from "./Section/MyExperiencesInCompanies/MyExperiencesInCompanies";
 import { MyFreelanceExperience } from "./Section/MyFreelanceExperience/MyFreelanceExperience";
+import { Footer } from "./Footer/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <MyFreelanceExperience />
       <MyExperiencesInCompanies />
       <ContactMe />
+      <Footer />
     </div>
   );
 }
