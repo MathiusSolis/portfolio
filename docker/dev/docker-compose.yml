@@ -1,5 +1,5 @@
 services:
-  protfolio_dev:
+  portfolio_dev:
     image: node:22-alpine
     container_name: portfolio_dev
     working_dir: "/portfolio"
