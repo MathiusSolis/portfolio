@@ -3,7 +3,9 @@ import { SectionTitle } from "../SectionTitle/SectionTitle";
 import { Card } from "./Card";
 import mbLogo from "../../../assets/logos/mb.jpg";
 import gsServiciosLogo from "../../../assets/logos/gs-servicios.svg";
+import bvLogo from "../../../assets/logos/bv-logo.png";
 import { ToolIcons } from "./ToolIcons";
+import osadsGroupLogo from "../../../assets/logos/osads-group.svg";
 
 export const MyExperiencesInCompanies = () => {
     return (
@@ -12,6 +14,39 @@ export const MyExperiencesInCompanies = () => {
             <div className="flex-1 flex justify-center items-center flex-wrap gap-10 relative mt-16 py-10 px-5">
                 <MainBg />
                 <ToolIcons />
+                <Card
+                    companyLogo={bvLogo}
+                    title="Buen Vivir Tecnología"
+                    date="Jun/Ago 2022 · 3 meses"
+                    descrption="Desarrollé paginas WEBs, incluido la administración de:"
+                    tasks={
+                        <>
+                            <li className="list-disc ml-4">Desarrollo y mantención frontend.</li>
+                            <li className="list-disc ml-4">Desarrollo y mantención backend.</li>
+                            <li className="list-disc ml-4">Despliegue de las paginas.</li>
+                        </>
+                    }
+                />
+                <Card
+                    companyLogo={osadsGroupLogo}
+                    title="Osads Groups"
+                    date="Nov 2022/Dic 2023 · 1 año y 2 meses"
+                    descrption="Administrando áreas como:"
+                    tasks={
+                        <>
+                            <li className="list-disc ml-4">Desarrollo y mantención frontend.</li>
+                            <li className="list-disc ml-4">Desarrollo y mantención backend.</li>
+                            <li className="list-disc ml-4">Desplieges (CI/CD).</li>
+                            <li className="list-disc ml-4">Gestor de módulos del proyecto.</li>
+                            <li className="list-disc ml-4">Encargado de la toma de requerimientos.</li>
+                            <li className="list-disc ml-4">Realizar análisis de procesos de negocio.</li>
+                            <li className="list-disc ml-4">Proponer mejoras.</li>
+                            <li className="list-disc ml-4">Soporte al cliente.</li>
+                            <li className="list-disc ml-4">Redactor técnico (documentación).</li>
+                            <li className="list-disc ml-4">Responsable de control de calidad.</li>
+                        </>
+                    }
+                />
                 <Card
                     companyLogo={mbLogo}
                     title="MásBlue SPA"
@@ -38,8 +73,9 @@ export const MyExperiencesInCompanies = () => {
                     descrption="Desarrollando software para clientes asociados"
                     tasks={
                         <>
-                            <li className="list-disc ml-4">Desarrolando frontend</li>
-                            <li className="list-disc ml-4">Desarrolando backend (APIs, servicios de correo, etc.)</li>
+                            <li className="list-disc ml-4">Desarrolando frontend.</li>
+                            <li className="list-disc ml-4">Desarrolando backend.</li>
+                            <li className="list-disc ml-4">Desplieges (CI/CD).</li>
                             <li className="list-disc ml-4">
                                 Manejo de infraestructura interna del software utilizando Docker, Docker Compose para la contenerización y Nginx (principalmente para balanceo de carga).
                             </li>
