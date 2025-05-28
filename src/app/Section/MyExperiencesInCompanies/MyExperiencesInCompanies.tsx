@@ -69,15 +69,15 @@ export const MyExperiencesInCompanies = () => {
                 <Card
                     companyLogo={gsServiciosLogo}
                     title="GS Servicios transdisciplinarios"
-                    date="Sep/Dic 2024 - Ene/Mar 2025 · 7 meses"
+                    date="Sep/Dic 2024 - Ene/May 2025 · 9 meses"
                     descrption="Desarrollando software para clientes asociados"
                     tasks={
                         <>
-                            <li className="list-disc ml-4">Desarrolando frontend.</li>
-                            <li className="list-disc ml-4">Desarrolando backend.</li>
+                            <li className="list-disc ml-4">Desarrollando frontend.</li>
+                            <li className="list-disc ml-4">Desarrollando backend.</li>
                             <li className="list-disc ml-4">Desplieges (CI/CD).</li>
                             <li className="list-disc ml-4">
-                                Manejo de infraestructura interna del software utilizando Docker, Docker Compose para la contenerización y Nginx (principalmente para balanceo de carga).
+                                Manejo de infraestructura interna del software utilizando Docker, Docker Compose para la contenerización y comunicación entre servicios/servidores y Nginx (principalmente para balanceo de carga).
                             </li>
                         </>
                     }
