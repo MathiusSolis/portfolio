@@ -69,7 +69,7 @@ export const MyExperiencesInCompanies = () => {
                 <Card
                     companyLogo={gsServiciosLogo}
                     title="GS Servicios transdisciplinarios"
-                    date="Sep/Dic 2024 - Ene/May 2025 · 9 meses"
+                    date="Sep/Dic 2024 - Ene/Jul 2025 · 11 meses"
                     descrption="Desarrollando software para clientes asociados"
                     tasks={
                         <>
